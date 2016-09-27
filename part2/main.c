@@ -38,7 +38,7 @@ void printDay(year, month, date) {
         }
     }
 
-    day = ((int)(fabs(365.25f * year) + fabs(30.56f * month) + date + n)) % 7;
+    day = ((int)(floor(365.25f * year) + floor(30.56f * month) + date + n)) % 7;
 
     //printf("%i\n", day);
 
