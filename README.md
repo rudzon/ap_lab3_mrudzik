@@ -1,1 +1,5 @@
-# ap_lab3_mrudzik
+# ap_lab3_drudzik
+
+## make
+`make clean`
+`make`
